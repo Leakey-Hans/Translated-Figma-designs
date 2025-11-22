@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Navbar css*/
+.navbar{
+    background-color: #289882;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+.navlinks a:hover{
+    color: #F7B32D;
+    text-decoration: 2px underline;
+}
+
+.nav-icons{
+    display: flex;
+    flex-basis: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Hero css*/
+
+.section1{
+    background-color: #ffffff;
+    /*border: 2px  solid black;*/
+    display: flex;
+    padding: 40px;
+    
+}
+
+.sec-content{
+    /*border: 2px solid red;*/
+    margin: auto;
+    flex-basis: 430px;
+}
+
+.sec-content h1{
+    color: #289882;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2.3;
+    text-align: center;
+}
+
+.adcontent{
+    border-bottom: 3px solid #F7B32D;
+}
+
+.sec-content p{
+    text-align: center;
+    color: #6e6e6e;
+}
+
+.cta{
+    /*border: 2px solid saddlebrown;*/
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    min-height: 6vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta a{
+    text-decoration: none;
+}
+
+.cta1{
+    background-color: #289882;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius:6px;
+    transition: all 0.3s ease;
+    border: 2px solid #289882;
+}
+
+.cta1:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid rgb(127, 127, 127);
+}
+
+.cta2{
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 25px;
+    border: 2px solid rgb(127, 127, 127);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.cta2:hover{
+    background-color: #289882;
+    color: #ffffff;
+    border: 2px solid #289882;
+}
+
+.section2{
+    border: 2px solid orange;
+    background-color: #ffffff;
+    display: flex;
+}
+
+/*Card Section*/
+
+.card1{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
